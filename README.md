@@ -14,3 +14,10 @@ Collaborations welcome.
 <br><br><br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+# Prerequisites
+.env file with:
+* DB_USER_NAME
+* DB_NAME
+* DB_PASSWORD
+* PEXELS_API_KEY
