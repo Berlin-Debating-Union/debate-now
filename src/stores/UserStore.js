@@ -7,7 +7,7 @@ class UserStore extends EventEmitter {
     super();
     this.users = [];
 
-    this.baseURL = (process.env.NODE_ENV === 'production') ? 'https://debate-now-api.herokuapp.com/'
+    this.baseURL = (process.env.NODE_ENV === 'production') ? 'https://now-api.debating.uber.space/'
       : 'http://localhost:3030/';
   }
 

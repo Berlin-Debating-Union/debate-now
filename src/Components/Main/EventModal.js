@@ -19,7 +19,7 @@ class EventModal extends Component {
       loadImages: false,
     };
 
-    this.baseURL = (process.env.NODE_ENV === 'production') ? 'https://debate-now-api.herokuapp.com/'
+    this.baseURL = (process.env.NODE_ENV === 'production') ? 'https://now-api.debating.uber.space/'
       : 'http://localhost:3030/';
 
     this.imagesPage = 1;
